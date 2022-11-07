@@ -30,7 +30,7 @@ Lab5
   const int numReadings = 100; //aka the averaging width
   int readings[numReadings]; // the readings from the analog input
   int readIndex = 0; // the index of the current reading
-  int total = 0;   // the average
+  int total = 0;   // the total
   int average = 0;  // the average
   
   void setup() {
