@@ -61,7 +61,7 @@ Lab5
       //change LED's brightness
       analogWrite(ledPin, brightness);
 
-       //read voltage value Vout 
+       //read voltage value Vout across R2
       int sensorValue = analogRead(A1); 
       lastTime += intervalBetweenData;
 
